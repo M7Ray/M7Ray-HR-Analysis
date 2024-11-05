@@ -1,7 +1,7 @@
 # M7Ray-HR-Analysis
 
 Project Overview
-
+[![Power BI](https://img.shields.io/badge/Made%20with-Power%20BI-blue?logo=powerbi&logoColor=white)](https://powerbi.microsoft.com/)
 Using important data and visualizations, this Power BI dashboard offers a thorough examination of employee attrition inside an organization in order to spot trends and insights. The dashboard is set up to provide a brief but thorough overview of the aspects influencing employee turnover, broken down into job-related and demographic factors.
 
 The data set contains the following parameters:

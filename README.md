@@ -8,7 +8,7 @@ For Further analysis, we added a conditional column as:
 
 = Table.AddColumn(#"Changed Type1", "AttritionCount", each if [Attrition] = "Yes" then 1 else 0)
 
-The data set contains the following parameters:
+  The data set contains the following parameters:
   * Demographics: Age, Gender, Marital Status, Education Level, Education Field.
   * Job Attributes: Job Role, Job Level, Department, Job Satisfaction, Environment Satisfaction, Job Involvement.
   * Financial and Work Conditions: Monthly Income, Salary Slab, Daily and Monthly Rates, Distance from Home.

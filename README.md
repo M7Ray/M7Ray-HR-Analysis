@@ -4,16 +4,16 @@
 
   Using important data and visualizations, this Power BI dashboard offers a thorough examination of employee attrition inside an organization in order to spot trends and      insights. The dashboard is set up to provide a brief but thorough overview of the aspects influencing employee turnover, broken down into job-related and demographic        factors.
 
-For Further analysis, we added a conditional column as:
+  For Further analysis, we added a conditional column as:
 
-= Table.AddColumn(#"Changed Type1", "AttritionCount", each if [Attrition] = "Yes" then 1 else 0)
+  = Table.AddColumn(#"Changed Type1", "AttritionCount", each if [Attrition] = "Yes" then 1 else 0)
 
-  The data set contains the following parameters:
-  * Demographics: Age, Gender, Marital Status, Education Level, Education Field.
-  * Job Attributes: Job Role, Job Level, Department, Job Satisfaction, Environment Satisfaction, Job Involvement.
-  * Financial and Work Conditions: Monthly Income, Salary Slab, Daily and Monthly Rates, Distance from Home.
-  * Company Engagement: Years at Company, Years in Current Role, Total Working Years, Years Since Last Promotion, Years With Current Manager, Work-Life Balance.
-  * Performance and Ratings: Performance Rating, Percent Salary Hike, Stock Option Level, Training Times Last Year.
+    The data set contains the following parameters:
+    * Demographics: Age, Gender, Marital Status, Education Level, Education Field.
+    * Job Attributes: Job Role, Job Level, Department, Job Satisfaction, Environment Satisfaction, Job Involvement.
+    * Financial and Work Conditions: Monthly Income, Salary Slab, Daily and Monthly Rates, Distance from Home.
+    * Company Engagement: Years at Company, Years in Current Role, Total Working Years, Years Since Last Promotion, Years With Current Manager, Work-Life Balance.
+    * Performance and Ratings: Performance Rating, Percent Salary Hike, Stock Option Level, Training Times Last Year.
 
 - INSIGHTS
 
